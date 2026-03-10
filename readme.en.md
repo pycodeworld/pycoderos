@@ -114,13 +114,13 @@ systemctl stop pycodebot
 ## Advanced Features 
 
 
-## 1. Image Recognition (pycodevision)**
+### 1. Image Recognition (pycodevision)
 
 **1.1 Install dependencies with apt**
 
 ```shell
 # If the ROS_DISTRO environment variable for the ROS distribution already exists, execute
-sudo apt install ros-$ROS_DISTRO-cv-bridge  #
+sudo apt install ros-$ROS_DISTRO-cv-bridge
 
 # For ros2 version humle, you can execute:
 sudo apt install ros-humble-cv-bridge
@@ -188,7 +188,7 @@ ros2 run pycodevision object_recognition
 ```
 
 
-**1.9 License plate recognition
+**1.9 License plate recognition**
 ```shell
 # Install dependency packages in the python virtual environment
 pip install hyperlpr3 onnxruntime
@@ -200,7 +200,7 @@ ros2 run pycodevision license_plate_recognition
 
 
 
-## 2. Speech Recognition (pycodeaudio) ##
+## 2. Speech Recognition (pycodeaudio) 
 
 **2.1 Install dependencies**
 
