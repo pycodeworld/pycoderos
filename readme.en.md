@@ -2,22 +2,22 @@
 
 ## Introduction
 
-pycodebot is a ROS robot system bridge service used for online management of ROS robots in the pycodeworld network.\\
+pycodebot is a ROS robot system bridge service used for online management of ROS robots in the pycodeworld network.\
 Services include function management and code management.
 
 ## Directory Structure
 
-**src**  \\
-&ensp;\\|----mycodebot User code: Initial user development project directory, providing basic example code\\
-&ensp;\\|----pycodevision Image recognition code: Contains machine vision functions such as face recognition, license plate recognition, and pose recognition\\
-&ensp;\\|----pycodeaudio Speech recognition code: Contains offline speech recognition applications such as Chinese speech recognition and specific command recognition\\
-&ensp;\\|----pycodebot Management code: Functional modules for node, file, and command operations\\
-&ensp;\\|----pycodemsg Message code: Message types used by core functions\\
-&ensp;\\|----pycodeapp Comprehensive application code: Comprehensive applications developed through the combination of single functions\\
-&ensp;\\|----model Model folder: Stores model files used by nodes\\
-&ensp;\\|----data Data folder: Used for nodes to save data\\
-**venv**  \\
-&ensp;\\|--- Virtual environment for installing Python dependency packages
+**src**  \
+&ensp;\|----mycodebot User code: Initial user development project directory, providing basic example code\
+&ensp;\|----pycodevision Image recognition code: Contains machine vision functions such as face recognition, license plate recognition, and pose recognition\
+&ensp;\|----pycodeaudio Speech recognition code: Contains offline speech recognition applications such as Chinese speech recognition and specific command recognition\
+&ensp;\|----pycodebot Management code: Functional modules for node, file, and command operations\
+&ensp;\|----pycodemsg Message code: Message types used by core functions\
+&ensp;\|----pycodeapp Comprehensive application code: Comprehensive applications developed through the combination of single functions\
+&ensp;\|----model Model folder: Stores model files used by nodes\
+&ensp;\|----data Data folder: Used for nodes to save data\
+**venv**  \
+&ensp;\|--- Virtual environment for installing Python dependency packages
 
 ## Code Compilation
 
