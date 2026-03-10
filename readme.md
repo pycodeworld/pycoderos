@@ -117,7 +117,7 @@ systemctl stop pycodebot
 ## 高级功能 
 
 
-## 1. 图像识别（pycodevision）**
+### 1. 图像识别（pycodevision）
 
 **1.1 apt安装依赖库**
 
@@ -191,7 +191,7 @@ ros2 run pycodevision object_recognition
 ```
 
 
-**1.9 车牌识别
+**1.9 车牌识别**
 ```shell
 # python虚拟环境安装依赖包
 pip install hyperlpr3 onnxruntime
@@ -203,7 +203,7 @@ ros2 run pycodevision license_plate_recognition
 
 
 
-## 2. 语音识别（pycodeaudio） ##
+### 2. 语音识别（pycodeaudio） 
 
 **2.1 安装依赖库**
 
@@ -253,6 +253,7 @@ ros2 run pycodebot node_speech_recognition --ros-args -p model_path:=/path/to/mo
 ## 联系方式
 邮箱： <tech@pycodeworld.com>  
 官方微信：pycodeplanet
+
 
 
 
