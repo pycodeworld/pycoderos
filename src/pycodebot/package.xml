@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>pycodebot</name>
+  <version>0.0.1</version>
+  <description>pycodebot for online ros robots management system </description>
+  <maintainer email="tech@pycodeworld.com">pycodeworld</maintainer>
+  <license>Dual License</license>
+
+  <depend>rclpy</depend>
+  <depend>pycodemsg</depend>
+  <depend>cv_bridge</depend>
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>rosbridge_server</exec_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+
+  <export>
+    <build_type>ament_python</build_type>
+    <resource>nodes_config.json</resource>
+  </export>
+</package>

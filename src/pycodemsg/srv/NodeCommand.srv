@@ -1,0 +1,8 @@
+string action
+string resource
+string command
+string alias
+---
+# Result
+bool success
+string message

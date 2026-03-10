@@ -1,0 +1,6 @@
+# 请求
+string resource
+---
+# 响应
+NodeEntry[] nodes  # 节点列表
+ 

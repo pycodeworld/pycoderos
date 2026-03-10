@@ -1,0 +1,63 @@
+{
+    "version": "1.0",
+    "commands": [
+        {
+            "intent": "control_node",
+            "actions": [
+                {
+                    "action": "start",
+                    "keywords": ["启动 打开 开始 开启 启用 运行"]
+                },
+                {
+                    "action": "stop",
+                    "keywords": ["停止 结束 关闭 停用"]
+                }
+            ],
+            "objects": [
+                {
+                    "object": "node_camera_raw",
+                    "keywords": ["图像 图片 视频", "采集"]
+                },
+                {
+                    "object": "node_camera_jpeg",
+                    "keywords": ["图像 图片 视频", "压缩"]
+                },
+                {
+                    "object": "face_recognition",
+                    "keywords": ["人脸", "识别"]
+                },
+                {
+                    "object": "object_recognition",
+                    "keywords": ["物体 东西 物品 图像 视频", "识别"]
+                },
+                {
+                    "object": "gesture_recognition_rps",
+                    "keywords": ["猜拳", "识别"]
+                },
+                {
+                    "object": "gesture_recognition_digits",
+                    "keywords": ["数字", "识别"]
+                },
+                {
+                    "object": "gesture_recognition_index_direction",
+                    "keywords": ["方向 指向", "识别"]
+                }
+            ]
+        },
+        {
+            "intent": "control_package",
+            "actions": [
+                {
+                    "action": "compile",
+                    "keywords": ["编译"]
+                }
+            ],
+            "objects": [
+                {
+                    "object": "mycodebot",
+                    "keywords": ["我 个人", "项目 工程 代码"]
+                }
+            ]
+        }
+    ]
+}

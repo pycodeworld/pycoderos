@@ -1,0 +1,2 @@
+string message   # 返回消息
+bool success  # 操作是否成功

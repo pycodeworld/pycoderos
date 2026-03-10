@@ -1,0 +1,13 @@
+# 请求
+string path
+string dest_path  # 新路径，用于拷贝/更名/移动文件
+string content # 字符串文件内容
+uint8[] data  # 字节数组文件内容
+string operation  # r/w/b:来表示文件读写, delete：删除, list：列表, copy：拷贝，move：移动, node: 创建节点文件
+int32 pos # 文件读写位置
+---
+# 响应
+string message   # 返回消息
+bool success  # 操作是否成功
+string content # 字符串文件内容
+uint8[] data  # 字节数组文件内容

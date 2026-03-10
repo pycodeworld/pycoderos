@@ -1,0 +1,54 @@
+{
+    "/hello_topic_listener": {
+        "alias": "主题订阅示例",
+        "command": "ros2 run mycodebot hello_topic_listener"
+    },
+    "/hello_topic_speaker": {
+        "alias": "主题发布示例",
+        "command": "ros2 run mycodebot hello_topic_speaker"
+    },
+    "/hello_service": {
+        "alias": "服务示例",
+        "command": "ros2 run mycodebot hello_service"
+    },
+    "/node_camera_raw": {
+        "alias": "视频采集",
+        "command": "ros2 run pycodebot node_camera_raw"
+    },
+    "/node_camera_jpeg": {
+        "alias": "视频压缩",
+        "command": "ros2 run pycodebot node_camera_jpeg"
+    },
+    "/gesture_recognition_digits": {
+        "alias": "手指数字识别",
+        "command": "ros2 run pycodevision gesture_recognition_digits"
+    },
+    "/gesture_recognition_rps": {
+        "alias": "猜拳识别",
+        "command": "ros2 run pycodevision gesture_recognition_rps"
+    },
+    "/gesture_recognition_index_direction": {
+        "alias": "手指方向识别",
+        "command": "ros2 run pycodevision gesture_recognition_index_direction"
+    },
+    "/face_recognition": {
+        "alias": "人脸识别",
+        "command": "ros2 run pycodevision face_recognition "
+    },
+    "/color_recognition": {
+        "alias": "颜色识别",
+        "command": "ros2 run pycodevision color_recognition"
+    },
+    "/image_processor": {
+        "alias": "图像处理",
+        "command": "ros2 run pycodevision image_processor"
+    },
+    "/speech_recognition_model": {
+        "alias": "语音识别",
+        "command": "ros2 run pycodeaudio speech_recognition_model"
+    },
+    "/speech_recognition_pycodebot": {
+        "alias": "语音指令",
+        "command": "ros2 run pycodeaudio speech_recognition_pycodebot"
+    }
+}

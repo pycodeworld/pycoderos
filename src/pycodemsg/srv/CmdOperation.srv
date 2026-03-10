@@ -1,0 +1,7 @@
+string action
+string resource
+string command
+---
+# Result
+bool success
+string message

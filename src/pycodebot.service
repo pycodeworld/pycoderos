@@ -1,0 +1,14 @@
+[Unit]
+Description=pycodebot
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c "PYCODEBOT_HOME_VALUE/pycodebot.sh respawn"
+ExecStop=/bin/bash -c "PYCODEBOT_HOME_VALUE/pycodebot.sh stop"
+User=root
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target 
+
+

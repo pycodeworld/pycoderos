@@ -1,0 +1,7 @@
+# 请求
+string path
+---
+# 响应
+FileEntry[] files # 文件列表
+string message   # 返回消息
+bool success  # 操作是否成功

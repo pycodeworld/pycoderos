@@ -1,0 +1,13 @@
+# Goal
+string action
+string resource
+string command
+---
+# Result
+bool success
+string message
+---
+# Feedback
+float32 percent
+string message
+bool error # 发生错误
