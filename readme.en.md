@@ -1,15 +1,3 @@
-limx
-将readme.md翻译保持成英文，保存成readme.en.md​
-TRAE AI
-好的，我将把 readme.md 的内容翻译成英文，并将其保存为 readme.en.md。
-
-首先，我需要阅读 readme.md 文件的内容。
-
-readme.md
-好的，我已经将 readme.md 的内容翻译成了英文。现在，我将为您创建一个名为 readme.en.md 的新文件，其中包含翻译后的内容。
-
-
-markdown
 # pycoderos
 
 ## Introduction
